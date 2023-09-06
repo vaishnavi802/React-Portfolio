@@ -1,0 +1,48 @@
+
+.portfolio_top h6{
+    margin-bottom: 15px;
+    color: #7865ff;
+}
+
+.portfolio_card{
+    position:relative;
+    z-index:90;
+}
+
+.portfolio_content{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:linear-gradient(rgb(0,13,107,0.6),rgb(0,13,107,0.6));
+    z-index:91;
+    opacity:0;
+    transform: translateY(-100%);
+    transition:0.3s;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    border-radius: 10px;
+}
+
+.portfolio_card:hover .portfolio_content{
+    transform:translateY(0);
+    opacity:1;
+}
+
+.portfolio_content a{
+    color:#fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.portfolio_content h5{
+    color:#fff;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.porfolio_img img{
+    border-radius: 10px;
+     
+}
