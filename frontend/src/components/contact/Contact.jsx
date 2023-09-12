@@ -15,24 +15,24 @@ const Contact = () => {
                     <div className="contact_info-container d-flex align-items-center gap-5">
                         <div className="single_info-box w-50">
                             <h6>Address</h6>
-                            <p>1234 Street Name, City, England</p>
+                            <p>Satsang Kalyan Nagar, Ambajogai Dist. Beed</p>
                         </div>
 
                         <div className="single_info-box w-50">
                             <h6>Phone</h6>
-                            <p>+123 456 7890</p>
+                            <p>+91 9579434590</p>
                         </div>
                     </div>
 
                     <div className="contact_info-container d-flex align-items-center gap-5">
                         <div className="single_info-box w-50">
                             <h6>Email</h6>
-                            <p>abc@gmail.com</p>
+                            <p>kulkarnivaishnavi499@gmail.com</p>
                         </div>
 
                         <div className="single_info-box w-50">
                             <h6>Location</h6>
-                            <p>London, England</p>
+                            <p>Maharashtra, India</p>
                         </div>
                     </div>
                 </Col>

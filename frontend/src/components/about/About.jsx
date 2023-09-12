@@ -49,14 +49,15 @@ const About = () => {
                 </div>
                 <div className="about_content w-75">
                   <h2>Hi, I'm Vaishnavi Kulkarni</h2>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat velit veniam dolore at nisi ratione temporibus laudantium rerum dolorum necessitatibus.Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                  <p>I like to explore various technologies and contribute to different open source technologies.
+                        I want to learn and grow as a developer. I want to work on different projects and learn new things.</p>
                   <div className="social_links">
                     <h6 className='mb-4'>Connect with me:</h6>
-                    <span><a href='#'><i class="ri-facebook-line"></i></a></span>
-                    <span><a href='#'><i class="ri-youtube-line"></i></a></span>
-                    <span><a href='#'><i class="ri-github-line"></i></a></span>
-                    <span><a href='#'><i class="ri-instagram-line"></i></a></span>
-                    <span><a href='#'><i class="ri-linkedin-line"></i></a></span>
+                    {/* <span><a href='#'><i class="ri-facebook-line"></i></a></span> */}
+                    {/* <span><a href='#'><i class="ri-youtube-line"></i></a></span> */}
+                    <span><a href='https://github.com/vaishnavi802'><i class="ri-github-line"></i></a></span>
+                    <span><a href='https://www.linkedin.com/in/vaishnavi-kulkarni-b0489a210'><i class="ri-linkedin-line"></i></a></span>
+                    <span><a href='https://www.instagram.com/vaishcoolkarni_21'><i class="ri-instagram-line"></i></a></span>
                   </div>
                 </div>
             </div>

@@ -3,39 +3,39 @@ import './skills.css'
 
 const frontendSkills = [
     {
-        tiyle: 'Javascript',
-        percentage: '85%'
-    },
-    {
-        tiyle: 'React.js',
+        tiyle: 'C',
         percentage: '90%'
     },
     {
-        tiyle: 'Redux',
+        tiyle: 'CPP',
+        percentage: '90%'
+    },
+    {
+        tiyle: 'HTML',
         percentage: '85%'
     },
     {
-        tiyle: 'Next.js',
-        percentage: '85%'
+        tiyle: 'CSS',
+        percentage: '80%'
     },
 ]
 
 const backendSkills = [
     {
-        tiyle: 'Node.js',
-        percentage: '85%'
+        tiyle: 'React.js',
+        percentage: '80%'
     },
     {
-        tiyle: 'Express.js',
-        percentage: '85%'
+        tiyle: 'Node.js',
+        percentage: '60%'
     },
     {
         tiyle: 'MongoDB',
-        percentage: '85%'
+        percentage: '70%'
     },
     {
         tiyle: 'MySQL',
-        percentage: '85%'
+        percentage: '75%'
     },
 ]
 

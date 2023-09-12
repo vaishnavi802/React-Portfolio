@@ -14,22 +14,22 @@ const Education = () => {
 
     <tbody>
         <tr>
-            <td>Master of Science</td>
-            <td>Computer Science</td>
-            <td>University of Dhaka</td>
-            <td>2019</td>
+            <td>B.Tech.</td>
+            <td>Information Technology</td>
+            <td>Walchand College of Engineering, Sangli</td>
+            <td>2020-24</td>
         </tr>
         <tr>
-            <td>Bachelor of Science</td>
-            <td>Computer Science</td>
-            <td>University of Dhaka</td>
-            <td>2018</td>
+            <td>Higher Secondary Education</td>
+            <td>PCM</td>
+            <td>St.Tukaram National Model School, Latur</td>
+            <td>2020</td>
         </tr>
         <tr>
-            <td>HSC</td>
+            <td>Secondary School Education</td>
             <td>Science</td>
-            <td>Notre Dame College</td>
-            <td>2013</td>
+            <td>GKYK, School Ambajogai, Dist. Beed</td>
+            <td>2018</td>
         </tr>
         </tbody>
   </table>

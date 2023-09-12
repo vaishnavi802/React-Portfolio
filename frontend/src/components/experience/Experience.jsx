@@ -6,19 +6,19 @@ import { Container, Row, Col } from 'reactstrap'
 
 const developerExperienceData = [
     {
-        year: '2020-21',
-        title: 'Frontend Developer',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, ipsam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, ipsam.'
+        year: '2022-23',
+        title: 'Frontend Developer(intern)',
+        description: 'Developed an Web application Performance Dashboard in Nice Systems, Pune.'
     },
     {
-        year: '2020-21',
-        title: 'Frontend Developer',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, ipsam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, ipsam.'
+        year: '2022-23',
+        title: 'Mentor at WLUG',
+        description: 'Directs and guides the students of the college in the field of Open Source and Linux.'
     },
     {
-        year: '2020-21',
-        title: 'Frontend Developer',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, ipsam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, ipsam.'
+        year: '2021-22',
+        title: 'Main Club Service Director at WLUG',
+        description: 'Organized sessions on Linux and opensource related topics and managed different events.'
     }
 ]
 
@@ -45,7 +45,7 @@ const Experience = () => {
                 </div>
             </Col>
 
-            <Col lg="6" md="6">
+            {/* <Col lg="6" md="6">
                 <div className="single_experience-container">
                     {
                         developerExperienceData.map((experience, index) => (
@@ -58,7 +58,7 @@ const Experience = () => {
                         ))
                     }
                 </div>
-            </Col>
+            </Col> */}
         </Row>
     </Container>
 

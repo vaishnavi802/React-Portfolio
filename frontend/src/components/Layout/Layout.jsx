@@ -5,7 +5,7 @@ import About from '../about/About'
 import Services from '../services/Services'
 import Experience from '../experience/Experience'
 // import Portfolio from '../portfolio/Portfolio'
-import Testimonial from '../testimonial/Testimonial'
+// import Testimonial from '../testimonial/Testimonial'
 import Contact from '../contact/Contact'
 import Footer from '../footer/Footer'
 
@@ -17,7 +17,12 @@ const Layout = () => {
     <Services />
     <Experience />
     {/* <Portfolio /> */}
-    <Testimonial />
+    {/* <Testimonial /> */}
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
     <Contact />
     <Footer />
   </Fragment>

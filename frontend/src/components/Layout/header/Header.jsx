@@ -13,7 +13,7 @@ const navlinks = [
         url :'#about'
     },
     {
-        display:'Services',
+        display:'Projects',
         url :'#services'
     },
     {
@@ -80,7 +80,7 @@ const handleClick = e => {
         </div>
 
         <div className="nav_right d-flex align-items-center gap-4">
-            <button className="btn">Let's talk</button>
+            <button className="btn">Let's Explore</button>
             <span className="mobile_menu"><i class="ri-menu-5-line" onClick={menuToggle}></i></span>
         </div>
         </div>
