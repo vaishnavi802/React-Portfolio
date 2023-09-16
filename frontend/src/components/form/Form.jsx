@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
-import './form.css'
+import './form.css' 
+import axios from 'axios'
 
 const Form = () => {
 
@@ -7,9 +8,35 @@ const Form = () => {
     const [enteredEmail, setEnteredEmail] = useState('')
     const [enteredMessage, setEnteredMessage] = useState('')
 
-    const submitHandler = (e) => {
+    const submitHandler = async (e) => {
         e.preventDefault()
-        console.log("Submitted")
+        const data = {
+            name: enteredName,
+            email: enteredEmail,
+            message: enteredMessage
+        }
+
+        if (enteredName.trim().length === 0 || enteredEmail.trim().length === 0 || enteredMessage.trim().length === 0) {
+            alert('Please fill all the fields')
+            return
+        }
+        try {
+            const res = await axios.post('http://localhost:5000/form', data)
+            console.log(res);
+            if (res.status === 200) {
+                alert('Message sent successfully')
+                setEnteredName('')
+                setEnteredEmail('')
+                setEnteredMessage('')
+            }
+            else {
+                alert('Something went wrong')
+            }
+        }
+        catch (err) {
+            alert('Something went wrong')
+            console.log(err)
+        }
     }
 
     return <form className='form' onSubmit={submitHandler}>
