@@ -20,7 +20,7 @@ const Contact = () => {
 
                         <div className="single_info-box w-50">
                             <h6>Phone</h6>
-                            <p>+91 9579434590</p>
+                            <p>+91 9579434499</p>
                         </div>
                     </div>
 

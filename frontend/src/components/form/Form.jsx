@@ -21,7 +21,7 @@ const Form = () => {
             return
         }
         try {
-            const res = await axios.post('http://localhost:5000/form', data)
+            const res = await axios.post('https://my-portfolio-backend-7h3x.onrender.com/form', data)
             console.log(res);
             if (res.status === 200) {
                 alert('Message sent successfully')
